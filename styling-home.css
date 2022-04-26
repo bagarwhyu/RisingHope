@@ -91,7 +91,7 @@ i.fa{
 }
 
 .home-text-1{
-    font-size: 25px;
+    font-size: 2vw;
     opacity: 50%;
 }
 
@@ -99,22 +99,24 @@ i.fa{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 4vw;
+    filter: drop-shadow(0 0 10px rgb(41, 161, 231));
+
 }
 
 .home-text-3{
-    font-size: 25px;
+    font-size: 2vw;
     opacity: 50%;
 }
 
 .pp{
     position: relative;
     top: -100px;
-    left: 190px;
-    width: 300px;
+    left: 140px;
+    width: 28vw;
     border-radius: 50%;
-    filter: brightness(80%);
-    filter: drop-shadow(0 0 5px white);
+    filter: brightness(60%);
+    filter: drop-shadow(0 0 10px rgb(41, 161, 231));
 }
 
 
@@ -145,6 +147,10 @@ i.fa{
 
     #check:checked ~ ul{
         left: 0;
+    }
+
+    #home{
+        top: 150px;
     }
 }
 
@@ -183,6 +189,30 @@ i.fa{
         padding: 0 10vw;
         font-size: 5vw;
     }
-    
+
+    #home{
+        top: 150px;
+    }
+
+    .home-container{
+        flex-direction: column;
+    }
+
+    .pp{
+        left: 280px;
+    }
+
+    .home-text-1{
+        font-size: 5vw;
+    }
+
+    .home-text-2{
+        font-size: 5vw;
+    }
+
+    .home-text-3{
+        font-size: 3vw;
+    }
 }
+
 
